@@ -1,5 +1,6 @@
 class User
   attr_reader :name, :address, :email
+
   def initialize(name, address, email)
     @name     = name
     @address  = address
@@ -8,5 +9,4 @@ class User
 end
 
 user = User.new("いとう","東京都", "nil")
-
 p user
